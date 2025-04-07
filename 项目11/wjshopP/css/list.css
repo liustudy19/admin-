@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* 商品列表页样式 */
+
+.list-main {
+	margin-top: 10px;
+	padding: 30px 0;
+	min-height: 1000px;
+}
+
+.list-main .inner {
+	align-items: flex-start;
+}
+
+/* 左侧产品分类导航栏 start */
+.side-nav {
+	width: 160px;
+	background: #997eef;
+	text-align: center;
+	color: #fff;
+}
+
+.side-nav-title {
+	padding: 16px 0;
+	border-bottom: 2px solid rgba(255, 255, 255, .4);
+}
+
+.side-nav-title p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.side-nav-title h3 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.side-nav-list {
+	padding: 35px 0;
+}
+
+.side-nav-list a {
+	color: #eae4fd;
+	display: block;
+	margin-bottom: 24px;
+}
+
+.side-nav-list a:last-child {
+	margin-bottom: 0;
+}
+
+.side-nav-list a:hover,
+.side-nav-list a.active {
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+/* 左侧产品分类导航栏 end */
+
+
+/* 右侧产品列表内容区 start */
+.right-content {
+	width: 980px;
+}
+
+/* 排序方式 start*/
+.sort-order {
+	justify-content: flex-start;
+	padding: 16px 0 40px;
+}
+
+.sort-order p {
+	margin-right: 25px;
+}
+
+.sort-order a {
+	margin-right: 20px;
+	font-size: 12px;
+	width: 68px;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	background: #f0f1f8;
+}
+
+.sort-order a:hover,
+.sort-order a.active {
+	background: #997eef;
+	color: #fff;
+}
+
+/* 排序方式 end*/
+
+/* 商品列表 start */
+.goods-list {
+	width: 100%;
+	background: #fff;
+	margin-bottom: 60px;
+}
+
+.goods-list li {
+	float: left;
+	margin: 0 60px 40px 0;
+	width: 200px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.goods-list li:nth-child(4n) {
+	margin-right: 0;
+}
+
+.list-goods-img-box {
+	width: 200px;
+	height: 260px;
+	overflow: hidden;
+}
+
+.goods-list li img {
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: transform .2s;
+	-moz-transition: transform .2s;
+	-o-transition: transform .2s;
+	transition: transform .2s;
+}
+
+.goods-list li:hover img {
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.goods-list h2 {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ec00ac;
+	margin: 10px 0;
+}
+
+.goods-name {
+	line-height: 18px;
+	height: 36px;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.goods-bot {
+	font-size: 12px;
+	line-height: 18px;
+	color: #999;
+}
+
+.evaluate-num span {
+	color: #997eef;
+	font-weight: bold;
+}
+
+/* 商品列表 end */
+
+/* 右侧产品列表内容区 end */

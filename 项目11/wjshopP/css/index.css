@@ -1,0 +1,185 @@
+/* banner start */
+.banner-box {
+	min-width: 1200px;
+	position: relative;
+	background: #c8c9db;
+}
+
+/* banner end */
+
+
+/* 优惠券 start */
+.coupon-contain {
+	position: absolute;
+	left: 0;
+	bottom: 30px;
+	width: 100%;
+	height: 184px;
+	background: #997eef url("../img/index/coupon-bg.png") top center no-repeat;
+}
+
+.coupon-inner {
+	text-align: right;
+	padding-right: 90px;
+}
+
+.coupon-a {
+	width: 166px;
+	height: 246px;
+	margin: -32px 30px 0 0;
+}
+
+.coupon-a img {
+	margin-top: 0;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	transition: all .2s;
+}
+
+.coupon-a:hover img {
+	margin-top: -10px;
+}
+
+/* 优惠券 end */
+/* 购物导览 start */
+.purchase-nav {
+	padding: 120px 0;
+}
+
+.module-title {
+	display: block;
+	width: auto;
+	height: 128px;
+	margin: 0 auto 60px;
+}
+
+.purchase-nav-box {
+	margin-bottom: 40px;
+}
+
+.purchase-nav-box a {
+	margin-top: 0;
+	-webkit-transition: all .2s;
+	-moz-transition: all .2s;
+	transition: all .2s;
+}
+
+.purchase-nav-box a:hover {
+	margin-top: -10px;
+}
+
+/* 购物导览 end */
+/* 热销榜单 start */
+.hot-sale {
+	padding-bottom: 120px;
+	width: 100%;
+	height: auto;
+}
+
+.hot-sale-inner {
+	width: 1072px;
+}
+
+.No-box {
+	position: relative;
+	width: 522px;
+}
+
+.No1-box {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.rank-icon {
+	position: absolute;
+	top: -38px;
+	left: -64px;
+	width: 234px;
+	height: 177px;
+}
+
+.No3-box .rank-icon {
+	left: 353px;
+}
+
+.hot-sale-bot {
+	align-items: flex-start;
+}
+
+.No-goods-txt {
+	padding: 26px 10px;
+}
+
+.No-goods-txt .goods-title {
+	width: 280px;
+	height: 56px;
+	overflow: hidden;
+	font-size: 18px;
+	color: #150605;
+	font-weight: bold;
+}
+
+.No-goods-txt .price {
+	margin-right: 10px;
+	font-size: 28px;
+	font-weight: bold;
+	color: #8554f2;
+}
+
+.No-goods-txt .price span {
+	font-size: 16px;
+}
+
+.No-goods-txt del {
+	margin-right: 10px;
+	font-size: 18px;
+	color: #999;
+}
+
+.No-goods-txt .buy-btn {
+	width: 84px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+	background: #f572d2;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+
+.No-goods-txt .buy-btn:hover {
+	background: #e25bb5;
+}
+
+/* 热销榜单 end */
+/* 公司头条 start */
+.news-list {
+	width: 100%;
+	padding: 20px 0 80px;
+	align-items: flex-start;
+}
+
+.news-list li {
+	width: 380px;
+}
+
+.news-txt {
+	padding: 20px;
+}
+
+.news-txt h5 {
+	height: 56px;
+	font-weight: bold;
+	font-size: 18px;
+	color: #150605;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+
+.news-txt p {
+	margin-bottom: 10px;
+}
+
+/* 公司头条 end */

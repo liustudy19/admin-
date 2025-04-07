@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>WJ自制女装品牌店</title>
+		<meta name="viewport"
+			content="width=device-width,initial-scale=1.0,maximum-scale=1,minimum-scale=1,user-scalable=no">
+		<link rel="stylesheet" href="css/base.css" /> <!-- 基础样式库 -->
+		<link rel="stylesheet" href="css/common.css" /> <!-- 页面公用样式 -->
+		<link rel="stylesheet" href="css/cart.css" /> <!-- 商品列表样式文件 -->
+	</head>
+	<body>
+		<!-- 顶部 start -->
+		<div class="top">
+			<div class="inner flex flex-be">
+				<p>欢迎来到WJ自制女装品牌店官网，祝您购物愉快！</p>
+				<p><a href="login.html">登录</a>|<a href="login.html">注册</a></p>
+			</div>
+		</div>
+		<!-- 顶部 end -->
+		
+		<!-- 头部区域 start -->
+		<header class="header">
+			<div class="inner flex flex-be">
+				<div class="header-left flex">
+					<img class="logo" src="img/common/logo.png" alt="logo">
+					<nav class="nav">
+						<a href="#" class="active">首页</a>
+						<a href="#">限时优惠</a>
+						<a href="#">新品上线</a>
+						<a href="list.html">全部宝贝</a>
+					</nav>
+				</div>
+				<div class="header-right flex">
+					<input class="search-input" type="text" value="" placeholder="输入你想要的宝贝">
+					<a class="search-btn" href="#"><img src="img/common/search-btn.png" alt="搜索按钮"></a>
+				</div>
+			</div>
+		</header>
+		<!-- 头部区域 end -->
+		
+		<!-- 中间内容区域 start -->
+		<main class="main cart-main">
+			<div class="inner">
+				<h1 class="cart-title">我的购物车</h1>
+		
+				<table class="cart-table">
+					<!-- 购物车列表标题区 start -->
+					<thead>
+						<tr>
+							<th><label class="checkbox-label flex" data-car-action="all"><input
+										class="checkbox-input qx" type="checkbox">全部</label></th>
+							<th class="name-th">商品</th>
+							<th>单价</th>
+							<th>数量</th>
+							<th>小计</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<!-- 购物车列表标题区 end -->
+		
+					<!-- 购物车列表区 start -->
+					<tbody>
+						<tr>
+							<td class="checkbox-td"><input class="checkbox-input dx" type="checkbox"
+									data-car-action="one"></td>
+							<td class="name-td flex">
+								<img class="cart-goods-pic" src="img/cart/pic1.png" alt="商品名称">
+								<p>休闲T恤+时尚牛仔裤套装</p>
+							</td>
+							<td>￥ <span class="goods-price">308</span></td>
+							<td>
+								<a class="minus-btn" data-car-action="reduce">－</a>
+								<input class="input-num" type="text" readonly="readonly" value="1" min="0">
+								<a class="plus-btn" data-car-action="add">+</a>
+							</td>
+							<td class="subtotal">￥ <span class="subtotal-price">308</span></td>
+							<td><a class="delete-btn" title="从购物车中移除" data-car-action="del"></a></td>
+						</tr>
+						<tr>
+							<td class="checkbox-td"><input class="checkbox-input dx" type="checkbox"
+									data-car-action="one"></td>
+							<td class="name-td flex">
+								<img class="cart-goods-pic" src="img/cart/pic2.png" alt="商品名称">
+								<p>时尚吊带+休闲香蕉长裤套装</p>
+							</td>
+							<td>￥ <span class="goods-price">408</span></td>
+							<td>
+								<a class="minus-btn" data-car-action="reduce">－</a>
+								<input class="input-num" type="text" readonly="readonly" value="1" min="0">
+								<a class="plus-btn" data-car-action="add">+</a>
+							</td>
+							<td class="subtotal">￥ <span class="subtotal-price">408</span></td>
+							<td><a class="delete-btn" title="从购物车中移除" data-car-action="del"></a></td>
+						</tr>
+						<tr>
+							<td class="checkbox-td"><input class="checkbox-input dx" type="checkbox"
+									data-car-action="one"></td>
+							<td class="name-td flex">
+								<img class="cart-goods-pic" src="img/cart/pic3.png" alt="商品名称">
+								<p>精品防晒服粉色长袖带帽</p>
+							</td>
+							<td>￥ <span class="goods-price">188</span></td>
+							<td>
+								<a class="minus-btn" data-car-action="reduce">－</a>
+								<input class="input-num" type="text" readonly="readonly" value="1" min="0">
+								<a class="plus-btn" data-car-action="add">+</a>
+							</td>
+							<td class="subtotal">￥ <span class="subtotal-price">188</span></td>
+							<td><a class="delete-btn" title="从购物车中移除" data-car-action="del"></a></td>
+						</tr>
+						<tr>
+							<td class="checkbox-td"><input class="checkbox-input dx" type="checkbox"
+									data-car-action="one"></td>
+							<td class="name-td flex">
+								<img class="cart-goods-pic" src="img/cart/pic4.png" alt="商品名称">
+								<p>白色吊带牛仔裤</p>
+							</td>
+							<td>￥ <span class="goods-price">108</span></td>
+							<td>
+								<a class="minus-btn" data-car-action="reduce">－</a>
+								<input class="input-num" type="text" readonly="readonly" value="1" min="0">
+								<a class="plus-btn" data-car-action="add">+</a>
+							</td>
+							<td class="subtotal">￥ <span class="subtotal-price">108</span></td>
+							<td><a class="delete-btn" title="从购物车中移除" data-car-action="del"></a></td>
+						</tr>
+						<tr>
+							<td class="checkbox-td"><input class="checkbox-input dx" type="checkbox"
+									data-car-action="one"></td>
+							<td class="name-td flex">
+								<img class="cart-goods-pic" src="img/cart/pic5.png" alt="商品名称">
+								<p>青春撞色米黄连衣裙装</p>
+							</td>
+							<td>￥ <span class="goods-price">288</span></td>
+							<td>
+								<a class="minus-btn" data-car-action="reduce">－</a>
+								<input class="input-num" type="text" readonly="readonly" value="1" min="0">
+								<a class="plus-btn" data-car-action="add">+</a>
+							</td>
+							<td class="subtotal">￥ <span class="subtotal-price">288</span></td>
+							<td><a class="delete-btn" title="从购物车中移除" data-car-action="del"></a></td>
+						</tr>
+					</tbody>
+					<!-- 购物车列表区 end -->
+		
+					<!-- 购物车底部结算区 start -->
+					<tfoot>
+						<tr>
+							<td colspan="6" class="settlement clearfix">
+								<a class="bot-delete-btn fl flex">
+									<img class="delete-icon" src="img/cart/delete-icon1.png" alt="删除选中商品icon">
+									<span>删除已选商品</span>
+								</a>
+								<div class="settlement-right fr flex">
+									<p class="total-num-box">共选中<span class="total-num">0</span>件商品</p>
+									<p class="total-price-box flex">总价：<span class="total-price">￥ 0.00</span></p>
+									<a class="settlement-btn">去结算</a>
+								</div>
+							</td>
+						</tr>
+					</tfoot>
+					<!-- 购物车底部结算区 start -->
+		
+				</table>
+			</div>
+		</main>
+		<!-- 中间内容区域 end -->
+		<!-- 底部区域 start -->
+		<footer class="footer">
+			<div class="inner">
+				<p class="more-ways">更多选购方式：可前往WJ自制女装品牌店线下门店进行商品选购，或者致电 400-880-888。</p>
+				<p class="copyright">Copyright© 2009-2022 www.wjzznz.com 版权所有 增值电信业务经营许可证：京ICP备202103</p>
+				<div class="bot-nav"><a>隐私政策</a>|<a>使用条款</a>|<a>销售政策</a>|<a>法律信息</a>|<a>网站地图</a></div>
+			</div>
+		</footer>
+		<!-- 底部区域 end -->
+	</body>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/cart.js"></script>
+
+</html>

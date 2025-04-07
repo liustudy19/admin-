@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>WJ自制女装品牌店</title>
+		<meta name="viewport" content="width=device-width,
+		initial-scale=1.0,maximum-scale=1,minimum-scale=1,
+		user-scalable=no">
+		<!-- 基础样式库 -->
+		<link rel="stylesheet" href="css/base.css"/>
+		<!-- 页面公用样式 -->
+		<link rel="stylesheet" href="css/common.css"/>
+		<!-- 登录页样式文件 -->
+		<link rel="stylesheet" href="css/login.css"/>
+
+	</head>
+	<body>
+		<!-- 头部区域 start -->
+		<header class="header login-header">
+			<div class="inner flex flex-be">
+				<a href="index.html">
+					<img class="logo" src="img/common/logo.png" alt="logo">
+				</a>
+				<nav class="nav">
+					<a href="index.html">首页</a>
+					<a href="#">限时优惠</a>
+					<a href="#">新品上线</a>
+					<a href="list.html">全部宝贝</a>
+				</nav>
+			</div>
+		</header>
+		<!-- 头部区域 end -->
+		<!-- 中间内容区域 start -->
+		<main class="main login-main">
+			<div class="inner flex flex-be">
+			
+				<!-- 左侧图片 -->
+				<img class="left-img" src="img/login/pic.png" alt="登录框左侧图">
+			
+				<!-- 注册 start -->
+				<div class="login-box" id="register" style="display: block">
+					<div class="login-box-top flex flex-be">
+						<h3>注册</h3>
+						<p>已有账号，<a class="link-a go-login">去登录</a></p>
+					</div>
+					<ul class="fill-li">
+						<li>
+							<img class="left-icon" src="img/login/phone.png" alt="手机icon">
+							<input type="tel" value="" placeholder="请输入您的手机号">
+						</li>
+						<li class="flex">
+							<img class="left-icon" src="img/login/code.png" alt="验证码icon">
+							<input class="code-input" type="text" value="" placeholder="请输入验证码">
+							<a class="send-btn">发送验证码</a>
+						</li>
+						<li>
+							<img class="left-icon" src="img/login/password.png" alt="设置密码icon">
+							<input type="password" value="" placeholder="请设置密码">
+						</li>
+						<li class="flex checkbox-li">
+							<label class="flex"><input class="checkbox-input" type="checkbox">已阅读并同意WJ自制女装帐号</label><a
+								class="link-a">用户协议</a>
+						</li>
+						<li>
+							<input class="submit-btn" type="submit" value="注册">
+						</li>
+					</ul>
+				</div>
+				<!-- 注册 end -->
+			
+			
+				<!-- 登录 start -->
+				<div class="login-box" id="login">
+					<div class="login-box-top flex flex-be">
+						<h3>登录</h3>
+						<p>还没有账号? <a class="link-a go-register">点我立即注册</a></p>
+					</div>
+					<ul class="fill-li">
+						<li>
+							<img class="left-icon" src="img/login/phone.png" alt="手机icon">
+							<input type="tel" value="" placeholder="请输入您的手机号">
+						</li>
+						<li class="flex">
+							<img class="left-icon" src="img/login/code.png" alt="验证码icon">
+							<input class="code-input" type="text" value="" placeholder="请输入验证码">
+							<a class="send-btn">发送验证码</a>
+						</li>
+						<li class="flex checkbox-li">
+							<label class="flex"><input class="checkbox-input" type="checkbox">已阅读并同意WJ自制女装帐号</label><a
+								class="link-a">用户协议</a>
+						</li>
+						<li>
+							<input class="submit-btn" type="submit" value="登录">
+						</li>
+					</ul>
+				</div>
+				<!-- 登录 end -->
+			</div>
+		</main>
+		<!-- 中间内容区域 end -->
+		<!-- 底部区域 start -->
+		<footer class="footer">
+			<div class="inner">
+				<p class="more-ways">更多选购方式：可前往WJ自制女装品牌店线下门店进行商品选购，或者致电 400-880-888。</p>
+				<p class="copyright">Copyright© 2009-2022 www.wjzznz.com 版权所有 增值电信业务经营许可证：京ICP备202103</p>
+				<div class="bot-nav"><a>隐私政策</a>|<a>使用条款</a>|<a>销售政策</a>|<a>法律信息</a>|<a>网站地图</a></div>
+			</div>
+		</footer>
+		<!-- 底部区域 end -->
+
+	</body>
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript">
+	// 登录、注册切换交互
+	$(".go-login").click(function() {
+		$("#login").css("display", "block");
+		$("#register").css("display", "none");
+	});
+	$(".go-register").click(function() {
+		$("#login").css("display", "none");
+		$("#register").css("display", "block");
+	})
+	</script>
+</html>

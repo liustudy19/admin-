@@ -1,0 +1,54 @@
+@import './base.css';
+
+/* 全局样式 */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Element Plus 主题定制 */
+:root {
+  --el-color-primary: #409EFF;
+  --el-color-success: #67C23A;
+  --el-color-warning: #E6A23C;
+  --el-color-danger: #F56C6C;
+  --el-color-info: #909399;
+}
+
+/* 布局相关 */
+.el-container {
+  height: 100%;
+}
+
+.el-aside {
+  transition: width 0.3s;
+}
+
+.el-main {
+  background-color: #f0f2f5;
+  padding: 20px;
+}
+
+/* 表单相关 */
+.el-form-item {
+  margin-bottom: 20px;
+}
+
+/* 按钮相关 */
+.el-button--primary {
+  width: 100%;
+}
+
+/* 卡片相关 */
+.el-card {
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+
+.el-card__header {
+  padding: 15px 20px;
+  border-bottom: 1px solid #ebeef5;
+  box-sizing: border-box;
+}
